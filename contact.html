@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Ralph Calilong</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="logo-mark">
+      <img src="/images/mainlogo.png" alt="Ralph Calilong logo">
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="rivet">&bull;</li>
+        <li><a href="work-experience.html">Work Experience</a></li>
+        <li class="rivet">&bull;</li>
+        <li><a href="education.html">Education</a></li>
+        <li class="rivet">&bull;</li>
+        <li><a href="equipment.html">Equipment</a></li>
+        <li class="rivet">&bull;</li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-wrap">
+
+      <div class="page-head page-head-center">
+        <p class="eyebrow">Let's work together</p>
+        <h1 class="page-title">Contact</h1>
+        <p class="page-subtitle">Reach out through whichever channel works best for you.</p>
+      </div>
+
+      <div class="spec-grid contact-grid">
+
+        <div class="spec-item">
+          <p class="spec-label">Personal Email</p>
+          <p class="spec-value"><a class="contact-link" href="mailto:ralph.calilong@gmail.com">ralph.calilong@gmail.com</a></p>
+        </div>
+
+        <div class="spec-item">
+          <p class="spec-label">Work Email</p>
+          <p class="spec-value"><a class="contact-link" href="mailto:ralph@wealthoutsidewallstreet.com">ralph@wealthoutsidewallstreet.com</a></p>
+        </div>
+
+        <div class="spec-item">
+          <p class="spec-label">Business</p>
+          <p class="spec-value"><a class="contact-link" href="https://barongwarehouse.com" target="_blank" rel="noopener">barongwarehouse.com</a></p>
+        </div>
+
+        <div class="spec-item">
+          <p class="spec-label">Facebook</p>
+          <p class="spec-value"><a class="contact-link" href="https://www.facebook.com/robandralph/" target="_blank" rel="noopener">facebook.com/robandralph</a></p>
+        </div>
+
+      </div>
+
+      <p class="page-note">Whichever tool fits the job, I'm one message away.</p>
+
+      <div class="form-section">
+        <p class="eyebrow">Or send a message directly</p>
+
+        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <!-- Spam trap — leave this field as-is, real visitors won't see or fill it -->
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+
+          <button type="submit" class="form-submit">Send Message</button>
+        </form>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Ralph Calilong. Built from scratch, tool by tool.</p>
+  </footer>
+
+</body>
+</html>
